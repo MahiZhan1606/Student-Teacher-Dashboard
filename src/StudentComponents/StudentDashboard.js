@@ -22,9 +22,9 @@ function StudentDashboard() {
                 <h1 className="h3 mb-0 text-gray-800">Welcome</h1>
             </div>
             <div className="row">
-                <Card name="Student Name" value='Sabari Arun' color="primary" />
+                <Card name="Student Name" value='Maheswaran' color="primary" />
                 <Card name="Standard" value="BSC CS" color="success" />
-                <Card name="Class Coordinator" value="Dinesh" color="info" />
+                <Card name="Class Coordinator" value="Mahizhan" color="info" />
                 <Card name="Attendance(in%)" value="75%" color="danger" />
             </div>
             <div className='row'>

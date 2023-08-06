@@ -45,7 +45,7 @@ function StudentList() {
                                             <th>Action</th>
                                         </tr>
                                     </thead>
-                                   
+
                                     <tbody>
                                         {studentList.map((student) => {
                                             return (

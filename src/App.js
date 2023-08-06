@@ -19,14 +19,14 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Login />} />
-        <Route path='/portal' element={<Portal isTeacher={true} name="ManiKandan" />}>
+        <Route path='/portal' element={<Portal isTeacher={true} name="Yazhan" />}>
           <Route path='teacher-dashboard' element={<TeacherDashboard />} />
           <Route path='teacher-details' element={<TeacherList />} />
           <Route path='create-student' element={<TeacherStudentCreate />} />
           <Route path='teacher-view/:id' element={<TeacherView />} />
           <Route path='teacher-edit/:id' element={<TeacherStudentEdit />} />
         </Route>
-        <Route path='/student-portal' element={<Portal isTeacher={false} name={"Nithish Kumar N"} />}>
+        <Route path='/student-portal' element={<Portal isTeacher={false} name={"Maheswaran"} />}>
           <Route path='student-dashboard' element={<StudentDashboard />} />
           <Route path='student-details' element={<StudentList />} />
           <Route path='student-view/:id' element={<StudentView />} />
