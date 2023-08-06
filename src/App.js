@@ -26,7 +26,7 @@ function App() {
           <Route path='teacher-view/:id' element={<TeacherView />} />
           <Route path='teacher-edit/:id' element={<TeacherStudentEdit />} />
         </Route>
-        <Route path='/student-portal' element={<Portal isTeacher={false} name={"Maheswaran"} />}>
+        <Route path='/student-portal' element={<Portal isTeacher={false} name={"Mahesh"} />}>
           <Route path='student-dashboard' element={<StudentDashboard />} />
           <Route path='student-details' element={<StudentList />} />
           <Route path='student-view/:id' element={<StudentView />} />

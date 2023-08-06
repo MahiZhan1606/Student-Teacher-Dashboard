@@ -11,7 +11,7 @@ function TeacherDashboard() {
                 <h1 className="h3 mb-0 text-gray-800"> Welcome, Tutor...!</h1>
             </div>
             <div className="row">
-                <Card name="Teacher Name" value='ManiKandan' color="primary" />
+                <Card name="Teacher Name" value='Mahizhan' color="primary" />
                 <Card name="Co-ordinator for" value="Online Class" color="success" />
                 <Card name="Feild" value="IT" color="info" />
                 <Card name="Department" value="FSD MERN" color="danger" />
